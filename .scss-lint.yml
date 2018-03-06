@@ -5,3 +5,5 @@ exclude:
 linters:
   VendorPrefix:
     enabled: false
+  ImportantRule:
+    exclude: "**/*.scss"
