@@ -6,6 +6,12 @@ vi:
       vi: "Tiếng Việt"
       login: "Đăng Nhập"
       news: "Tin Tức"
+    header:
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
   static_pages:
     home:
       title: "Trang chủ"
@@ -69,3 +75,12 @@ vi:
     error_messages:
       error: "Lỗi"
       theformcontains: "Biểu mẫu có chứa"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      newuser: "Tạo tài khoản?"
+      signupnow: "Đăng ký ngay!"
+    create:
+      errors: "Kết hợp email / mật khẩu không hợp lệ"

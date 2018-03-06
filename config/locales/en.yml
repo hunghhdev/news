@@ -6,6 +6,12 @@ en:
       vi: "Tiếng Việt"
       login: "Login"
       news: "News"
+    header:
+      users: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Logout"
   static_pages:
     home:
       title: "Home"
@@ -54,3 +60,12 @@ en:
     error_messages:
       error: "error"
       theformcontains: "The form contains"
+  sessions:
+    new:
+      login: "Login"
+      email: "Email"
+      password: "Password"
+      newuser: "New user?"
+      signupnow: "Sign up now!"
+    create:
+      errors: "Invalid email/password combination"
