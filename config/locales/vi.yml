@@ -82,5 +82,6 @@ vi:
       password: "Mật khẩu"
       newuser: "Tạo tài khoản?"
       signupnow: "Đăng ký ngay!"
+      remember: "Ghi nhớ đăng nhập"
     create:
       errors: "Kết hợp email / mật khẩu không hợp lệ"
