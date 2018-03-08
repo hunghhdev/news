@@ -45,17 +45,33 @@ en:
       t1: "Contact the Ruby on Rails Tutorial about the sample app at the contact page"
 
   users:
-    new:
-      title: "Sign up"
+    index:
+      title: "All users"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirm: "Password Confirmation"
+    new:
+      title: "Sign up"
       create: "Create account"
     show:
       error: "User doesn't exist"
     create:
       welcome: "Welcome to Sample App!"
+    edit:
+      update: "Save changes"
+      title: "Edit user"
+      h1: "Update your profile"
+      pleaselogin: "Please login"
+    update:
+      profileupdate: "Profile updated"
+    user:
+      delete: "Delete"
+      confirm: "You sure?"
+      title: "All users"
+    destroy:
+      deleted: "Deleted!"
   shared:
     error_messages:
       error: "error"

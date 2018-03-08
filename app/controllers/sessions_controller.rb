@@ -22,6 +22,6 @@ class SessionsController < ApplicationController
   def authenticated user
     log_in user
     account[:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_to user
+    redirect_back_or user
   end
 end

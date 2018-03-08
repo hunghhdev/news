@@ -4,5 +4,5 @@ RemoveUnusedMethodsInControllersCheck: {
     'StaticPagesController#about','StaticPagesController#contact',
     'UsersController#new', 'UsersController#show', 'UsersController#create',
     'SessionsController#new', 'SessionsController#destroy',
-    'SessionsController#create']
+    'SessionsController#create', UsersController#index]
 }

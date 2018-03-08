@@ -45,17 +45,32 @@ vi:
       t1: "Liên hệ với Hướng dẫn của Ruby on Rails về ứng dụng mẫu tại trang liên hệ"
     
   users:
-    new:
-      title: "Đăng kí"
+    index:
+      title: "Danh Sách Người Dùng"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       password_confirm: "Xác nhận mật khẩu"
+    new:
+      title: "Đăng kí"
       create: "Tạo tài khoản"
     show:
       error: "Người dùng không tồn tại"
     create:
       welcome: "Chào mừng đến với ứng dụng mẫu!"
+    edit:
+      update: "Lưu thay đổi"
+      title: "Chỉnh sửa người dùng"
+      h1: "Cập nhật thông tin của bạn"
+      pleaselogin: "Hãy đăng nhập"
+    update:
+      profileupdate: "Hồ sơ cá nhân đã được cập nhật"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+    destroy:
+      deleted: "Người dùng đã được xóa!"
   activerecord:
     attributes:
       user:
@@ -85,3 +100,6 @@ vi:
       remember: "Ghi nhớ đăng nhập"
     create:
       errors: "Kết hợp email / mật khẩu không hợp lệ"
+  will_paginate:
+    previous_label: "Trước"
+    next_label: "Sau"
